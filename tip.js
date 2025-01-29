@@ -14,6 +14,12 @@ function reset()
 {
     input_value.value=''
     input_valuep.value=''
-     
+    const ans = document.getElementById("out1")
+ans.innerHTML="Tip Amount:"
+const ans1 = document.getElementById("out2")
+
+
+ans1.innerHTML="Total Amount To Pay:"
+
 
 }
