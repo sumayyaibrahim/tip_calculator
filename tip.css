@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container
+{
+    width:30%;
+    height:400px;
+    background-color:rgb(109, 189, 109);
+    padding:30px;
+    margin-left:10px;
+    border-radius:10px;
+    animation: colorchange 5s inifinte;
+
+    
+
+}
+.heading{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    background-color:rgb(15, 114, 15);
+    width:95%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    height:20%;
+    animation-name: colorchange;
+    animation-iteration-count:infinite;
+    animation-duration:2s;
+    font-size:30px;
+   
+}
+.body{
+    background-color:rgb(15, 114, 15);
+    width:95%;
+    height: 75%;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding-top:25px;
+    
+    
+    
+
+    
+}
+#input_value, #input_valuep{
+margin-top:10px;
+border-radius: 8px;
+height:25px;
+border: none;
+}
+
+@keyframes colorchange{
+    0%{
+        color:rgb(175, 238, 73);
+    }
+    50%{
+         color:rgb(110, 110, 225);
+    }
+    100%{
+      color:rgb(196, 49, 142);
+    }
+    }
+
+    .bbutton{
+        background-color: rgb(23, 199, 23);
+        width:40%;
+        height:30px;
+        border-radius:7px;
+        box-shadow:4px 4px rgb(4, 246, 56);
+        border:none;
+        color:white;
+        
+    }
+        
+    
+    #button
+    {
+        margin-top:30px;
+        
+    }
+    .out{
+        margin-top:25px;
+    }
+
+
+#out1{
+
+}
